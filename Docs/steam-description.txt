@@ -1,0 +1,45 @@
+[b]All the Progression goodness, less research.[/b]
+
+[i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3841675689]Progression: Power[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
+
+[h2]Features[/h2]
+[list]
+[*]Overhauls power progression, so generators, batteries and power buildings from many mods each have a place in the research tree.
+[*]Electricity needs Smithing.
+[/list]
+
+[h2]Why "LESS"?[/h2]
+Progression: Power adds up to [b]22 research projects[/b] depending on your mods. This fork cuts that to [b]at most 6[/b]:
+[list]
+[*][b]Fueled generators[/b] (Industrial): chemfuel generator, and gas generator with VE Helixien Gas
+[*][b]Wind power[/b] (Industrial): wind turbine, and windmill with VFE Settlers
+[*][b]Turbines[/b] (Industrial, with Appliances Expanded): wood-fired, chemfuel and gas turbines
+[*][b]Logic circuits[/b] (Industrial, with Logic Switch): power crossing, signal timer, time sensor and motion sensor
+[*][b]Gel batteries[/b] (Industrial, with Alpha Animals): blue gel battery, hexagel battery and hexagel core reactor
+[*][b]Muscle-powered generators[/b] (Industrial, with Hamster Wheel Generator or Human Power Generator): human hamster wheel and bicycle generator
+[/list]
+Everything else unlocks with the research it already builds on:
+[list]
+[*]Power switch, power poles, wall connectors and pole lamps: [b]Electricity[/b]
+[*]Advanced wind turbine, solar, watermill and geothermal generators: VFE Power's [b]Advanced power sources[/b], which ferny's version left empty
+[/list]
+Everything stays in the same era, and still needs the other research it did before.
+
+[h2]Compatibility[/h2]
+Supports:
+[list]
+[*]Vanilla Furniture Expanded - Power
+[*]Vanilla Factions Expanded - Settlers
+[*]Vanilla Helixien Gas Expanded
+[*]Appliances Expanded
+[*]Logic Switch
+[*]Alpha Animals
+[*]Power Poles and Power Poles Extended
+[*]Hamster Wheel Generator (Continued)
+[*]Human Power Generator Mod
+[*]Ancient Urban Ruins
+[/list]
+
+[b]Replaces the original. Don't use both.[/b]
+
+[b]Switching mid-game isn't recommended.[/b] Many of the original's research projects are merged or removed, so swapping Progression: Power for this fork in an existing save can lose research progress. Start a new game when you switch.
