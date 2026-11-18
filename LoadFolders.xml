@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+    <li IfModActive="co.uk.epicguru.rimforgepoles">Mods and Shit/Power Poles</li>
+    <li IfModActiveAll="gy.ppextend,co.uk.epicguru.rimforgepoles">Mods and Shit/Power Poles Extended</li>
+    <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule">Mods and Shit/VFE Settlers</li>
+    <li IfModActive="borsh.logicswitches">Mods and Shit/Logic Switch</li>
+    <li IfModActive="scpchemfuel.appliances">Mods and Shit/Appliances Expanded</li>
+    <li IfModActive="vanillaexpanded.helixiengas">Mods and Shit/VE Helixien Gas</li>
+    <li IfModActiveAll="scpchemfuel.appliances,vanillaexpanded.helixiengas">Mods and Shit/Appliances Expanded - Helixien Gas</li>
+    <li IfModActive="vanillaexpanded.vfepower">Mods and Shit/VFE Power</li>
+    <li IfModActive="sarg.alphaanimals">Mods and Shit/Alpha Animals</li>
+    <li IfModActive="zal.hamsterwheelgenerator">Mods and Shit/Hamster Wheel Generator</li>
+    <li IfModActive="flashpoint55.humanpowergeneratormod">Mods and Shit/Human Power Generator Mod</li>
+  </v1.6>
+  <v1.7>
+    <li>/</li>
+    <li IfModActive="co.uk.epicguru.rimforgepoles">Mods and Shit/Power Poles</li>
+    <li IfModActiveAll="gy.ppextend,co.uk.epicguru.rimforgepoles">Mods and Shit/Power Poles Extended</li>
+    <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule">Mods and Shit/VFE Settlers</li>
+    <li IfModActive="borsh.logicswitches">Mods and Shit/Logic Switch</li>
+    <li IfModActive="scpchemfuel.appliances">Mods and Shit/Appliances Expanded</li>
+    <li IfModActive="vanillaexpanded.helixiengas">Mods and Shit/VE Helixien Gas</li>
+    <li IfModActiveAll="scpchemfuel.appliances,vanillaexpanded.helixiengas">Mods and Shit/Appliances Expanded - Helixien Gas</li>
+    <li IfModActive="vanillaexpanded.vfepower">Mods and Shit/VFE Power</li>
+    <li IfModActive="sarg.alphaanimals">Mods and Shit/Alpha Animals</li>
+    <li IfModActive="zal.hamsterwheelgenerator">Mods and Shit/Hamster Wheel Generator</li>
+    <li IfModActive="flashpoint55.humanpowergeneratormod">Mods and Shit/Human Power Generator Mod</li>
+  </v1.7>
+</loadFolders>

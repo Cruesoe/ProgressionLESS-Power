@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>Ferny_MotionSensor</defName>
+    <label>Motion sensor</label>
+    <description>Build an automated switch that closes the circuit while any living creature is within its detection radius (1-5 tiles).</description>
+    <baseCost>400</baseCost>
+    <tab>Main</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>31.65</researchViewX>
+    <researchViewY>4.65</researchViewY>
+    <prerequisites>
+      <li>Ferny_PowerSwitch</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Ferny_PowerCrossing</defName>
+    <label>Power crossing</label>
+    <description>Build a conduit crossing. The north-south line and the west-east line pass through the same cell without connecting to each other. Attached devices connect to the north-south line.</description>
+    <baseCost>200</baseCost>
+    <tab>Main</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>32.65</researchViewX>
+    <researchViewY>0.65</researchViewY>
+    <prerequisites>
+      <li>Ferny_PowerSwitch</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Ferny_SignalTimer</defName>
+    <label>Signal timer</label>
+    <description>Build a delay relay. Input is the south side, output is the north side. The output adopts the input signal only after it has stayed unchanged for the set time (1-30 seconds); if the signal flips back during the countdown, the timer resets.</description>
+    <baseCost>400</baseCost>
+    <tab>Main</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>32.65</researchViewX>
+    <researchViewY>1.65</researchViewY>
+    <prerequisites>
+      <li>Ferny_PowerSwitch</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Ferny_TimeSensor</defName>
+    <label>Time sensor</label>
+    <description>Build an automated switch that toggles based on the time of day.</description>
+    <baseCost>300</baseCost>
+    <tab>Main</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>32.65</researchViewX>
+    <researchViewY>2.65</researchViewY>
+    <prerequisites>
+      <li>Ferny_PowerSwitch</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

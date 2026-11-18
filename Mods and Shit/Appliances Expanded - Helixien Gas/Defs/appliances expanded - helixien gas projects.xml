@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>Ferny_GasPoweredTurbine</defName>
+    <label>Gas-powered turbine</label>
+    <description>Build a helixien gas powered turbojet. Although cumbersome, it produces a lot power and can be linked to the helixien gas network.</description>
+    <baseCost>1000</baseCost>
+    <tab>Main</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>31.65</researchViewX>
+    <researchViewY>3.65</researchViewY>
+    <prerequisites>
+      <li>Fabrication</li>
+      <li>Ferny_GasPoweredGenerator</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>Ferny_FueledTurbine</defName>
+    <label>Fueled turbine</label>
+    <description>Build a wood powered turbojet generator. Although cumbersome, it produces a lot power. Must be refueled by hand.</description>
+    <baseCost>1000</baseCost>
+    <tab>Main</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>31.65</researchViewX>
+    <researchViewY>0.65</researchViewY>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Ferny_ChemfuelTurbine</defName>
+    <label>Chemfuel turbine</label>
+    <description>Build a chemfuel powered turbojet. Although cumbersome, it produces a lot of power, and can be refueled by chemfuel pipes.</description>
+    <baseCost>1000</baseCost>
+    <tab>Main</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>31.65</researchViewX>
+    <researchViewY>1.65</researchViewY>
+    <prerequisites>
+      <li>Fabrication</li>
+      <li>Ferny_ChemfuelPoweredGenerator</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

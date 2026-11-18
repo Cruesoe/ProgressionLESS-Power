@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="Electricity"]/prerequisites/li[.="Smithing"]</xpath>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ResearchProjectDef[defName="Electricity"]/prerequisites</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="Electricity"]/prerequisites</xpath>
+        <value>
+          <li>Smithing</li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="Electricity"]</xpath>
+        <value>
+          <prerequisites>
+            <li>Smithing</li>
+          </prerequisites>
+        </value>
+      </nomatch>
+    </nomatch>
+  </Operation>
+</Patch>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Progression: Power</name>
+  <author>ferny</author>
+  <packageId>ferny.progressionpower</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Overhauls power progression.</description>
+  <loadAfter>
+    <li>ludeon.rimworld</li>
+    <li>ferny.progressioncore</li>
+    <li>ferny.generallymoreresearch</li>
+    <li>co.uk.epicguru.rimforgepoles</li>
+    <li>gy.ppextend</li>
+    <li>xmb.ancienturbanruins.mo</li>
+    <li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
+    <li>borsh.logicswitches</li>
+    <li>scpchemfuel.appliances</li>
+    <li>vanillaexpanded.helixiengas</li>
+    <li>vanillaexpanded.vfepower</li>
+    <li>sarg.alphaanimals</li>
+    <li>zal.hamsterwheelgenerator</li>
+    <li>flashpoint55.humanpowergeneratormod</li>
+  </loadAfter>
+</ModMetaData>

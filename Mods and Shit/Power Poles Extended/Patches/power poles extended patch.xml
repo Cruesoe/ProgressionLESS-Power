@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="PP_MPowerPole"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="PP_MPowerPole"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerPoles</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="PP_MPowerPole"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerPoles</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="PP_MPowerPoleLamp"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="PP_MPowerPoleLamp"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerPoles</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="PP_MPowerPoleLamp"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerPoles</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="PP_PowerPoleLamp"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="PP_PowerPoleLamp"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerPoles</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="PP_PowerPoleLamp"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerPoles</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

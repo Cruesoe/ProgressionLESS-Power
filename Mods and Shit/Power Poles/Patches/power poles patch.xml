@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RF_PowerPole"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="RF_PowerPole"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerPoles</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_PowerPole"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerPoles</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RF_WallConnector"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="RF_WallConnector"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerPoles</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_WallConnector"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerPoles</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

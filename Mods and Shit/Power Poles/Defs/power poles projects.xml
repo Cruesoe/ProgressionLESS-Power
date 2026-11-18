@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>Ferny_PowerPoles</defName>
+    <label>Power poles</label>
+    <description>Build power poles and wall connectors to carry electricity between buildings. Link poles individually or use auto-link for multiple poles. Wall connectors join the cables to a building's power grid and must be placed where there is no existing power cable.</description>
+    <baseCost>300</baseCost>
+    <tab>Main</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>30.65</researchViewX>
+    <researchViewY>4.65</researchViewY>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

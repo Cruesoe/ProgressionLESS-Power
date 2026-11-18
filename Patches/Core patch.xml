@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_ChemfuelPoweredGenerator</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_ChemfuelPoweredGenerator</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="PowerSwitch"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="PowerSwitch"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerSwitch</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="PowerSwitch"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_PowerSwitch</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="WindTurbine"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="WindTurbine"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_WindTurbine</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="WindTurbine"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_WindTurbine</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

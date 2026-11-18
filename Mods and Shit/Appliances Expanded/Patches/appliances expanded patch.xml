@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="CA_WoodFiredTurbine"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CA_WoodFiredTurbine"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_FueledTurbine</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="CA_WoodFiredTurbine"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_FueledTurbine</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="CA_ChemfuelTurbine"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CA_ChemfuelTurbine"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_ChemfuelTurbine</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="CA_ChemfuelTurbine"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_ChemfuelTurbine</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>
