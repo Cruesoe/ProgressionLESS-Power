@@ -6,7 +6,7 @@
       <xpath>Defs/ThingDef[defName="MotionSensor"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_MotionSensor</li>
+          <li>Ferny_PowerCrossing</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -14,7 +14,7 @@
       <xpath>Defs/ThingDef[defName="MotionSensor"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_MotionSensor</li>
+          <li>Ferny_PowerCrossing</li>
         </researchPrerequisites>
       </value>
     </nomatch>
@@ -44,7 +44,7 @@
       <xpath>Defs/ThingDef[defName="LogicGate_Timer"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_SignalTimer</li>
+          <li>Ferny_PowerCrossing</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -52,7 +52,7 @@
       <xpath>Defs/ThingDef[defName="LogicGate_Timer"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_SignalTimer</li>
+          <li>Ferny_PowerCrossing</li>
         </researchPrerequisites>
       </value>
     </nomatch>
@@ -63,7 +63,7 @@
       <xpath>Defs/ThingDef[defName="TimeSensor"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_TimeSensor</li>
+          <li>Ferny_PowerCrossing</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -71,7 +71,7 @@
       <xpath>Defs/ThingDef[defName="TimeSensor"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_TimeSensor</li>
+          <li>Ferny_PowerCrossing</li>
         </researchPrerequisites>
       </value>
     </nomatch>

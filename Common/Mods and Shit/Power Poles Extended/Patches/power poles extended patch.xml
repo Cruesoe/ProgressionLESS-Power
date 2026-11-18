@@ -6,7 +6,7 @@
       <xpath>Defs/ThingDef[defName="PP_MPowerPole"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerPoles</li>
+          <li>Electricity</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -14,7 +14,7 @@
       <xpath>Defs/ThingDef[defName="PP_MPowerPole"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerPoles</li>
+          <li>Electricity</li>
         </researchPrerequisites>
       </value>
     </nomatch>
@@ -25,7 +25,7 @@
       <xpath>Defs/ThingDef[defName="PP_MPowerPoleLamp"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerPoles</li>
+          <li>Electricity</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -33,7 +33,7 @@
       <xpath>Defs/ThingDef[defName="PP_MPowerPoleLamp"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerPoles</li>
+          <li>Electricity</li>
         </researchPrerequisites>
       </value>
     </nomatch>
@@ -44,7 +44,7 @@
       <xpath>Defs/ThingDef[defName="PP_PowerPoleLamp"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerPoles</li>
+          <li>Electricity</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -52,7 +52,7 @@
       <xpath>Defs/ThingDef[defName="PP_PowerPoleLamp"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerPoles</li>
+          <li>Electricity</li>
         </researchPrerequisites>
       </value>
     </nomatch>

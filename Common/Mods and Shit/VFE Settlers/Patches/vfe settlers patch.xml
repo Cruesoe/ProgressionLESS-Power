@@ -6,7 +6,7 @@
       <xpath>Defs/ThingDef[defName="Windmill"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_Windmill</li>
+          <li>Ferny_WindTurbine</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -14,7 +14,7 @@
       <xpath>Defs/ThingDef[defName="Windmill"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_Windmill</li>
+          <li>Ferny_WindTurbine</li>
         </researchPrerequisites>
       </value>
     </nomatch>

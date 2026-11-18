@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>   
+<Patch>
 
 <Operation Class="PatchOperationReplace">
-	<xpath>Defs/ThingDef[defName="VFE_AdvancedWindTurbine"]/researchPrerequisites</xpath>
-	<value>
-		<researchPrerequisites>
-			<li>Ferny_AdvancedWindTurbine</li>
-		</researchPrerequisites>
-	</value>
+  <xpath>Defs/ThingDef[defName="VFE_AdvancedWindTurbine"]/researchPrerequisites</xpath>
+  <value>
+    <researchPrerequisites>
+      <li>VFE_AdvancedPowerSources</li>
+    <li>Ferny_WindTurbine</li>
+    <li>Fabrication</li>
+    </researchPrerequisites>
+  </value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-	<xpath>Defs/ThingDef[defName="VFE_AdvancedSolarGenerator"]/researchPrerequisites</xpath>
-	<value>
-		<researchPrerequisites>
-			<li>Ferny_AdvancedSolarGenerator</li>
-		</researchPrerequisites>
-	</value>
+  <xpath>Defs/ThingDef[defName="VFE_AdvancedSolarGenerator"]/researchPrerequisites</xpath>
+  <value>
+    <researchPrerequisites>
+      <li>VFE_AdvancedPowerSources</li>
+    <li>SolarPanels</li>
+    <li>Fabrication</li>
+    </researchPrerequisites>
+  </value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-	<xpath>Defs/ThingDef[defName="VFE_AdvancedWatermillGenerator"]/researchPrerequisites</xpath>
-	<value>
-		<researchPrerequisites>
-			<li>Ferny_AdvancedWatermillGenerator</li>
-		</researchPrerequisites>
-	</value>
+  <xpath>Defs/ThingDef[defName="VFE_AdvancedWatermillGenerator"]/researchPrerequisites</xpath>
+  <value>
+    <researchPrerequisites>
+      <li>VFE_AdvancedPowerSources</li>
+    <li>WatermillGenerator</li>
+    <li>Fabrication</li>
+    </researchPrerequisites>
+  </value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-	<xpath>Defs/ThingDef[defName="VPE_AdvancedGeothermalGenerator"]/researchPrerequisites</xpath>
-	<value>
-		<researchPrerequisites>
-			<li>Ferny_AdvancedGeothermalGenerator</li>
-		</researchPrerequisites>
-	</value>
+  <xpath>Defs/ThingDef[defName="VPE_AdvancedGeothermalGenerator"]/researchPrerequisites</xpath>
+  <value>
+    <researchPrerequisites>
+      <li>VFE_AdvancedPowerSources</li>
+    <li>GeothermalPower</li>
+    <li>Fabrication</li>
+    </researchPrerequisites>
+  </value>
 </Operation>
 </Patch>

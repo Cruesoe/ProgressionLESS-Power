@@ -2,8 +2,8 @@
 <Defs>
   <ResearchProjectDef>
     <defName>Ferny_FueledTurbine</defName>
-    <label>Fueled turbine</label>
-    <description>Build a wood powered turbojet generator. Although cumbersome, it produces a lot power. Must be refueled by hand.</description>
+    <label>turbines</label>
+    <description>Build turbojet generators. Although cumbersome, they produce a lot of power: wood-fired turbines are refueled by hand, chemfuel turbines through chemfuel pipes, and with helixien gas, gas turbines through the gas pipe network.</description>
     <baseCost>1000</baseCost>
     <tab>Main</tab>
     <techLevel>Industrial</techLevel>
@@ -11,20 +11,6 @@
     <researchViewY>0.65</researchViewY>
     <prerequisites>
       <li>Fabrication</li>
-    </prerequisites>
-  </ResearchProjectDef>
-  <ResearchProjectDef>
-    <defName>Ferny_ChemfuelTurbine</defName>
-    <label>Chemfuel turbine</label>
-    <description>Build a chemfuel powered turbojet. Although cumbersome, it produces a lot of power, and can be refueled by chemfuel pipes.</description>
-    <baseCost>1000</baseCost>
-    <tab>Main</tab>
-    <techLevel>Industrial</techLevel>
-    <researchViewX>31.65</researchViewX>
-    <researchViewY>1.65</researchViewY>
-    <prerequisites>
-      <li>Fabrication</li>
-      <li>Ferny_ChemfuelPoweredGenerator</li>
     </prerequisites>
   </ResearchProjectDef>
 </Defs>

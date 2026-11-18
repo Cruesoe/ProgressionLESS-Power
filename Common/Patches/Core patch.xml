@@ -20,25 +20,6 @@
     </nomatch>
   </Operation>
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="PowerSwitch"]/researchPrerequisites</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="PowerSwitch"]/researchPrerequisites</xpath>
-      <value>
-        <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerSwitch</li>
-        </researchPrerequisites>
-      </value>
-    </match>
-    <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="PowerSwitch"]</xpath>
-      <value>
-        <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerSwitch</li>
-        </researchPrerequisites>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="WindTurbine"]/researchPrerequisites</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="WindTurbine"]/researchPrerequisites</xpath>

@@ -6,7 +6,9 @@
       <xpath>Defs/ThingDef[defName="CA_GasTurbine"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_GasPoweredTurbine</li>
+          <li>Ferny_FueledTurbine</li>
+          <li>Ferny_ChemfuelPoweredGenerator</li>
+          <li>VHGE_GasExtraction</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -14,7 +16,9 @@
       <xpath>Defs/ThingDef[defName="CA_GasTurbine"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_GasPoweredTurbine</li>
+          <li>Ferny_FueledTurbine</li>
+          <li>Ferny_ChemfuelPoweredGenerator</li>
+          <li>VHGE_GasExtraction</li>
         </researchPrerequisites>
       </value>
     </nomatch>

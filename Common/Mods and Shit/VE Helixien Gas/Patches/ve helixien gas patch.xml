@@ -6,7 +6,8 @@
       <xpath>Defs/ThingDef[defName="VHGE_HelixienGenerator"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_GasPoweredGenerator</li>
+          <li>Ferny_ChemfuelPoweredGenerator</li>
+          <li>VHGE_GasExtraction</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -14,7 +15,8 @@
       <xpath>Defs/ThingDef[defName="VHGE_HelixienGenerator"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_GasPoweredGenerator</li>
+          <li>Ferny_ChemfuelPoweredGenerator</li>
+          <li>VHGE_GasExtraction</li>
         </researchPrerequisites>
       </value>
     </nomatch>

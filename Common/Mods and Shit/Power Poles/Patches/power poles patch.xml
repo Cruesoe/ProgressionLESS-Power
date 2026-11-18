@@ -6,7 +6,7 @@
       <xpath>Defs/ThingDef[defName="RF_PowerPole"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerPoles</li>
+          <li>Electricity</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -14,7 +14,7 @@
       <xpath>Defs/ThingDef[defName="RF_PowerPole"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerPoles</li>
+          <li>Electricity</li>
         </researchPrerequisites>
       </value>
     </nomatch>
@@ -25,7 +25,7 @@
       <xpath>Defs/ThingDef[defName="RF_WallConnector"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerPoles</li>
+          <li>Electricity</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -33,7 +33,7 @@
       <xpath>Defs/ThingDef[defName="RF_WallConnector"]</xpath>
       <value>
         <researchPrerequisites Inherit="False">
-          <li>Ferny_PowerPoles</li>
+          <li>Electricity</li>
         </researchPrerequisites>
       </value>
     </nomatch>

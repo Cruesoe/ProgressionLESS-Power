@@ -2,8 +2,8 @@
 <Defs>
   <ResearchProjectDef>
     <defName>Ferny_ChemfuelPoweredGenerator</defName>
-    <label>Chemfuel powered generator</label>
-    <description>Build a generator that produces power by consuming chemfuel. Must be periodically refueled by hand.</description>
+    <label>fueled generators</label>
+    <description>Build generators that produce power by burning fuel: chemfuel generators refueled by hand and, with helixien gas, gas generators connected to a gas pipe network.</description>
     <baseCost>700</baseCost>
     <tab>Main</tab>
     <techLevel>Industrial</techLevel>
@@ -14,22 +14,9 @@
     </prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef>
-    <defName>Ferny_PowerSwitch</defName>
-    <label>Power switch</label>
-    <description>Build a switch that turns power on or off.</description>
-    <baseCost>200</baseCost>
-    <tab>Main</tab>
-    <techLevel>Industrial</techLevel>
-    <researchViewX>30.65</researchViewX>
-    <researchViewY>1.65</researchViewY>
-    <prerequisites>
-      <li>Electricity</li>
-    </prerequisites>
-  </ResearchProjectDef>
-  <ResearchProjectDef>
     <defName>Ferny_WindTurbine</defName>
-    <label>Wind turbine</label>
-    <description>Build a wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow.</description>
+    <label>wind power</label>
+    <description>Build wind-powered electrical generators, from older windmills to modern wind turbines. They need a large clear space in front and behind for optimal air flow.</description>
     <baseCost>700</baseCost>
     <tab>Main</tab>
     <techLevel>Industrial</techLevel>
@@ -37,7 +24,19 @@
     <researchViewY>2.65</researchViewY>
     <prerequisites>
       <li>Electricity</li>
-      <li MayRequire="oskarpotocki.vanillafactionsexpanded.settlersmodule">Ferny_Windmill</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef MayRequireAnyOf="zal.hamsterwheelgenerator,flashpoint55.humanpowergeneratormod">
+    <defName>Ferny_HamsterWheelGenerator</defName>
+    <label>muscle-powered generators</label>
+    <description>Build devices that generate power from manual motion, such as a human hamster wheel or a bicycle generator.</description>
+    <baseCost>600</baseCost>
+    <tab>Main</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>30.65</researchViewX>
+    <researchViewY>1.65</researchViewY>
+    <prerequisites>
+      <li>Electricity</li>
     </prerequisites>
   </ResearchProjectDef>
 </Defs>
